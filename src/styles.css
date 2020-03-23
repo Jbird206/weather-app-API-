@@ -1,3 +1,80 @@
 body {
-    background-color: lightcoral;
+    background-color: rgb(92, 87, 87);
+  }
+
+  .container2 {
+    background-color: rgb(182, 176, 167);
+    box-shadow: 10px 15px 30px rgb(211, 137, 27);
+    width: 800px;
+    border-radius: 4%;
+    border: 1px solid cyan;
+    border-width: 2px;
+    border-color: cyan;
+    align-self: center;
+    padding-bottom: 10px;
+  }
+
+  .container3 {
+    background-color: rgb(247, 243, 236);
+    box-shadow: 10px 15px 30px rgb(250, 235, 98);
+    width: 500px;
+    border-radius: 4%;
+    border: 1px solid cyan;
+    border-width: 2px;
+    border-color: cyan;
+    align-self: center;
+    padding-bottom: 10px;
+  }
+
+  .jumbotron2 {
+    background-color: rgb(156, 152, 146);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgb(211, 137, 27);
+    width:500px;
+  border: 1px solid cyan;
+  border-width: 2px;
+  border-color: cyan;
+  border-radius: 10%;
+  }
+
+  h1 {
+    color: beige;
+    text-shadow: 1px 10px 20px black, 0 0 1em rgb(235, 153, 31), 0 0 0.2em rgb(231, 98, 21);
+    font: 1.5em Georgia, serif;
+    text-align: center;
+  }
+
+  p {
+    text-shadow: 1px 10px 20px black, 0 0 1em rgb(238, 238, 245), 0 0 0.2em rgb(245, 125, 13);
+  }
+
+  hr {
+    color: rebeccapurple;
+    background-color: rebeccapurple;
+    max-width: 950px;
+    border: 1px solid cyan;
+    border-width: 1px;
+    border-color: cyan;
+    padding: 2px;
+  }
+
+  .btn-success {
+    color: rgb(9, 9, 49);
+    background-color: cadetblue;
+    border-color: cadetblue;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover {
+    background-color: rgb(165, 201, 166); /* Green */
+    color: white;
+  }
+
+  h2 {
+    color: beige;
+    text-shadow: 1px 10px 20px black, 0 0 1em rgb(235, 153, 31), 0 0 0.2em rgb(231, 98, 21);
+    font: 1.5em Georgia, serif;
+    text-align: center;
   }

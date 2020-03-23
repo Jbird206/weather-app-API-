@@ -4,19 +4,40 @@
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./weatherinterface.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>Weather</title>
 </head>
 
 <body>
-    <div class="container">
+    <center><div class="container">
+        <div class="jumbotron2"><br>
+            <i class='fas fa-cloud-sun'></i>
+<i class='fas fa-cloud-sun' style='font-size:24px'></i>
+<i class='fas fa-cloud-rain' style='font-size:24px'></i>
+<i class='fas fa-sun' style='font-size:24px'></i>
+<i class='fas fa-temperature-high' style='font-size:36px'></i>
+<i class='fas fa-cloud-sun' style='font-size:36px'></i>
+<i class='fas fa-snowflake' style='font-size:48px;color:rgb(245, 245, 240)'></i><br>
         <h1>Get Weather Conditions From Anywhere!</h1><br>
-        <hr>
+        </div>
+        <br>
+        <br>
+        <div class="container2"><br>
         <label for="location">Enter a location:</label>
         <input id="location" type="text">
-        <button class="btn-success" id="weatherLocation">Get Current Temperature and Humidity</button>
+        <button class="btn-success" id="weatherLocation"><i class='fas fa-temperature-high' style='font-size:16px;color:rgb(245, 60, 35)' ></i>Get Current Temperature and Humidity</button><br></center><br>
+        <br>
+        <br>
+    </div>
+    <hr>
+    <center><div class="container3">
+        <h2>Result:</h2>
+        <p><span id="result"></span></p>
         <div class="errors"></div>
         <div class="showHumidity"></div>
         <div class="showTemp"></div>
+
+    </div></center>
     </div>
 </body>
 
